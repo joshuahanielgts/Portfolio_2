@@ -8,26 +8,27 @@
 </head>
 <body>
   <div class="container">
-    <header>
+    <header id="home">
+      <img src="pp1.jpg" alt="J Joshua Haniel" class="profile-pic" />
       <h1>J Joshua Haniel</h1>
-      <p>2rd Year CSE CORE A Student</p>
+      <p>2nd Year CSE CORE A Student</p>
       <p>ML & Web Dev Enthusiast</p>
       <div class="links">
-        <a href="https://github.com/joshuahanielgts" target="_blank">GitHub</a>
-        <a href="http://www.linkedin.com/in/joshuahanielgts" target="_blank">LinkedIn</a>
+        <a href="https://github.com/joshuahanielgts" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="http://www.linkedin.com/in/joshuahanielgts" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
     </header>
 
     <section>
       <h2>About Me</h2>
-      <p>I'm a tech enthusiast currently pursuing my second year in Computer Science. I enjoy building web apps, exploring machine learning, and leading tech communities.</p>
+      <p>I'm a passionate tech enthusiast currently pursuing my second year in Computer Science. I enjoy building web apps, diving into machine learning, and contributing to tech communities.</p>
     </section>
 
     <section>
       <h2>Projects</h2>
       <ul>
-        <li><strong>FinTech Vault:</strong> Startup-investor Connector</li>
-        <li><strong>RoomRoster</strong> Hostel Management System</li>
+        <li><strong>FinTech V.A.U.L.T.:</strong> A modern platform connecting startups with investors</li>
+        <li><strong>RoomRoster:</strong> A complete hostel management system for colleges</li>
       </ul>
     </section>
 
@@ -38,7 +39,18 @@
 
     <section>
       <h2>Contact</h2>
-      <p>Email: j06haniel@gmail.com</p>
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
     </section>
 
     <footer>
